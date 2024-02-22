@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aves de compañia</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- etiquetas para el SEO -->
+  <meta name="author" content="Danilo">
+  <meta name="description" content="La mejor página de aves de compañia">
+  <meta name="keywords" content="Ave, aves, bird, birds, pajaro, pajaros, exoticos, exoticas, exotico, exotica">
+  <meta name="copyright" content="Danilo">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div>
+      <picture>
+        <source srcset="img/header500.avif" media="(max-width: 500px)">
+        <source srcset="img/header1100.avif" media="(max-width: 1000px)">
+        <img src="img/header.avif" alt="Una pareja de aves juntas sobre una rama">
+      </picture>
+      <h1>Aves de compañia</h1>
+    </div>
+  </header>
+
+  <!-- nav-bar -->
+  <nav>
+    <ul class="width-content">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="ninfas.html">Ninfas</a></li>
+      <li><a href="agapornis.html">Agapornis</a></li>
+      <li><a href="cuidados.html">Cuidados</a></li>
+      <li><a href="alimentacion.html">Alimentación</a></li>
+    </ul>
+  </nav>
+
+  <!-- main -->
+  <main>
+    <!-- Se utiliza la clase importantes para diferenciar una seccion de la otra -->
+    <section class="importantes">
+
+      <article class="width-content">
+        <img src="img/papagayo.avif" alt="Papagayo de perfil sobre su rama, con un fondo desenfocado con vegetacion">
+        <div class="info-importantes">
+          <h2>¡Son súper fascinantes!</h2>
+          <p>
+            Las aves son seres fascinantes que despiertan admiración. Su
+            capacidad de vuelo, sus variados colores y sus melodiosos cantos
+            las convierten en criaturas únicas. Su adaptabilidad a diferentes
+            entornos y su diversidad de especies son asombrosas.
+          </p>
+          <p>
+            Observar su comportamiento, desde construir nidos hasta migrar
+            largas distancias, nos muestra la maravilla de la naturaleza y nos
+            invita a apreciar la belleza y singularidad de las aves.
+          </p>
+        </div>
+      </article>
+
+      <div class="back-color">
+        <article class="width-content">
+          <div class="info-importantes">
+            <h2>Aprende la forma de cuidarlos</h2>
+            <p>
+              Cuidar aves es una experiencia fascinante y gratificante. Requiere
+              responsabilidad, paciencia y amor por estos seres alados. Observar
+              su comportamiento, aprender sobre sus necesidades y brindarles
+              cuidados adecuados nos conecta con la naturaleza.
+            </p>
+            <p>
+              La interacción diaria, el vínculo que se crea y el privilegio de
+              ser testigo de su belleza y singularidad hacen que cuidar aves sea
+              una experiencia verdaderamente interesante e enriquecedora.
+            </p>
+          </div>
+          <img src="img/disparo-vertical-adorable-cockatiel.avif" alt="Cockatiel de perfil abriendo el pico">
+        </article>
+      </div>
+
+    </section>
+
+    <!-- Se utiliza la clase exoticas para diferenciar una seccion de la otra -->
+    <section class="exoticas">
+
+      <h2>Las aves exóticas mas comunes</h2>
+
+      <div class="width-content">
+        <article class="left">
+          <h3>Ninfas</h3>
+          <img src="img/carolina.avif" alt="Cockatiel abriendo el pico y sus alas">
+          <p>
+            Los Nymphicus hollandicus, también conocidos como cacatúas
+            ninfa, son aves carismáticas y encantadoras, apreciadas por su
+            personalidad juguetona y su característico copete.
+          </p>
+        </article>
+
+        <article class="right">
+          <h3>Agapornis</h3>
+          <img src="img/agapornis.avif" alt="Agapornis de colores rojo, naranja, amarillo, parado sobre una mano">
+          <p>
+            Los Agapornis, también conocidos como inseparables, son aves
+            sociales y amorosas, reconocidas por su fuerte vínculo de
+            pareja.
+          </p>
+        </article>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- footer -->
+  <!-- Se reparte en distintos div que contienen los distintos contenidos del footer -->
+  <!-- Cada -li- tambien tiene un -a- que servira para enviar a cada seleccion correspondiente, ahora solo con # para no generar complicaciones en el código -->
+  <footer>
+    <div class="width-content">
+      <div>
+        <p>Enlaces útiles</p>
+        <ul>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Nuestros productos</a></li>
+          <li><a href="#">Tratamiento de aves</a></li>
+          <li><a href="#">Afiliados</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Adoptar</p>
+        <ul>
+          <li><a href="#">Criaderos</a></li>
+          <li><a href="#">Casas de acogida</a></li>
+          <li><a href="#">Particulares</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Conoce a las aves</p>
+        <ul>
+          <li><a href="#">Zoológico de Barcelona</a></li>
+          <li><a href="#">Videos</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Contacto</p>
+        <ul>
+          <li><a href="#"><span id="email">info@avesdecompañia.com</span></a></li>
+          <li>
+            <!-- Para enlazar a las redes sociales creo una nueva -ul- con cada -li- convertido en enlace -->
+            <ul class="logos-redes">
+              <li><a href="https://facebook.com" target="_blank"><img class="redes" src="logos/facebook.avif"
+                    alt="Logo facebook"></a></li>
+              <li><a href="https://twitter.com/" target="_blank"><img class="redes" src="logos/twitter.avif"
+                    alt="Logo twitter"></a></li>
+              <li><a href="https://instagram.com" target="_blank"><img class="redes" src="logos/instagram.avif"
+                    alt="Logo instagram"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

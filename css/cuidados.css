@@ -1,0 +1,27 @@
+section > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cuidados {
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    border: 5px solid var(--color-h1-section-footer);
+}
+
+.cuidados img {
+    width: 30%;
+}
+
+.cuidados div {
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+}

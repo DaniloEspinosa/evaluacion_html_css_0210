@@ -1,0 +1,183 @@
+/* Globales */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-nav: #d6cf7bda;
+    --color-hover: #ffff4d;
+    --color-h1-section-footer: #eec886c2;
+    --color-h2: #a39d5c;
+    --color-h3: #d1ca78;
+    --color-p-li-a: #3d3b22;
+    --font-titulos:  "Shadows Into Light", cursive;
+}
+
+.width-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    color: var(--color-p-li);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-p-li-a);
+}
+
+a:hover {
+    color: var(--color-hover);
+}
+
+/* titulos y textos */
+
+h1 {
+    color: var(--color-h1-section-footer);
+    font-size: 9vw;
+    font-family: var(--font-titulos);
+}
+
+h2 {
+    color: var(--color-h2);
+    font-size: 3.5em;
+    font-family: var(--font-titulos);
+    margin: 20px auto;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: var(--color-h3);
+    margin:20px 0;
+}
+
+p {
+    font-size: 1.25em;
+    color: var(--color-p-li);
+}
+
+/* header */
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 10%;
+}
+
+picture img {
+    width: 100vw;
+}
+
+/* nav-bar */
+
+nav {
+    position: sticky;
+    background-color: var(--color-nav);
+    top: 0;
+    margin-top: -70px;
+    padding: 20px;
+    border-bottom: 10px solid var(--color-h3);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 1.25em;
+}
+
+/* main */
+
+/* primera seccion */
+
+.importantes article {
+    display: flex;
+    align-items: center;
+}
+
+.info-importantes {
+    padding: 20px;
+}
+
+.back-color {
+    background-color: var(--color-h1-section-footer);
+}
+
+.importantes img {
+    width: 50%;
+}
+
+/* segunda seccion */
+
+.exoticas h2 {
+    text-align: center;
+}
+
+.exoticas div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.exoticas img {
+    width: 100%;
+}
+
+.exoticas article {
+    width: 49%;
+}
+
+.right {
+    text-align: end;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--color-h1-section-footer);
+    padding: 30px 0;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    margin-top: 10px;
+}
+
+.logos-redes {
+    display: flex;
+    margin-top: 15px;
+}
+
+.redes {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.redes:hover {
+    width: 38px;
+    margin-right: 2px;
+}
+
+#email {
+    text-decoration: underline;
+}

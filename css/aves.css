@@ -1,0 +1,14 @@
+iframe {
+    width: 100%;
+    margin: 10px 0 30px;
+}
+
+.final {
+    text-align: end;
+}
+
+.final a:hover {
+    color: var(--color-p-li);
+    font-weight: bold;
+    text-decoration: underline;
+}
